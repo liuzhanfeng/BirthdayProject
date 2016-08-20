@@ -15,6 +15,7 @@
 		AB0B02DC1D682F2C004B0F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0B02DA1D682F2C004B0F80 /* LaunchScreen.storyboard */; };
 		AB0B02E71D682F2C004B0F80 /* BirthdayProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B02E61D682F2C004B0F80 /* BirthdayProjectTests.m */; };
 		AB0B02F21D682F2C004B0F80 /* BirthdayProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B02F11D682F2C004B0F80 /* BirthdayProjectUITests.m */; };
+		AB0B03081D6831B8004B0F80 /* ZFAVAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B03071D6831B8004B0F80 /* ZFAVAudioManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AB0B02ED1D682F2C004B0F80 /* BirthdayProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0B02F11D682F2C004B0F80 /* BirthdayProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayProjectUITests.m; sourceTree = "<group>"; };
 		AB0B02F31D682F2C004B0F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0B03061D6831B8004B0F80 /* ZFAVAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAVAudioManager.h; sourceTree = "<group>"; };
+		AB0B03071D6831B8004B0F80 /* ZFAVAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAVAudioManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		AB0B02CB1D682F2C004B0F80 /* BirthdayProject */ = {
 			isa = PBXGroup;
 			children = (
+				AB0B03051D68311E004B0F80 /* AVFoundation */,
 				AB0B02CF1D682F2C004B0F80 /* AppDelegate.h */,
 				AB0B02D01D682F2C004B0F80 /* AppDelegate.m */,
 				AB0B02D21D682F2C004B0F80 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				AB0B02F31D682F2C004B0F80 /* Info.plist */,
 			);
 			path = BirthdayProjectUITests;
+			sourceTree = "<group>";
+		};
+		AB0B03051D68311E004B0F80 /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B03061D6831B8004B0F80 /* ZFAVAudioManager.h */,
+				AB0B03071D6831B8004B0F80 /* ZFAVAudioManager.m */,
+			);
+			path = AVFoundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB0B02D41D682F2C004B0F80 /* ViewController.m in Sources */,
+				AB0B03081D6831B8004B0F80 /* ZFAVAudioManager.m in Sources */,
 				AB0B02D11D682F2C004B0F80 /* AppDelegate.m in Sources */,
 				AB0B02CE1D682F2C004B0F80 /* main.m in Sources */,
 			);
@@ -498,6 +512,7 @@
 				AB0B02F81D682F2C004B0F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB0B02F91D682F2C004B0F80 /* Build configuration list for PBXNativeTarget "BirthdayProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				AB0B02FB1D682F2C004B0F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB0B02FC1D682F2C004B0F80 /* Build configuration list for PBXNativeTarget "BirthdayProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				AB0B02FE1D682F2C004B0F80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
