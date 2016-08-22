@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1523CD18C8E84C667979BB14 /* libPods-BirthdayProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6947B9EBF9C9D4348F5CD4 /* libPods-BirthdayProjectTests.a */; };
+		3C72EF811D6AD29B008E0FDB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C72EF801D6AD29B008E0FDB /* CoreText.framework */; };
+		3C72EF831D6AD2A6008E0FDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C72EF821D6AD2A6008E0FDB /* QuartzCore.framework */; };
+		3C72EF871D6AD4EA008E0FDB /* 5448056_tu5974_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C72EF851D6AD4EA008E0FDB /* 5448056_tu5974_21.jpg */; };
+		3C72EF881D6AD4EA008E0FDB /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C72EF861D6AD4EA008E0FDB /* launch.jpg */; };
+		3C72EF991D6AED10008E0FDB /* DrawText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72EF981D6AED10008E0FDB /* DrawText.m */; };
+		3C72EF9C1D6AEE03008E0FDB /* UIBezierPath+ZJText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72EF9B1D6AEE03008E0FDB /* UIBezierPath+ZJText.m */; };
+		3C72EF9E1D6AF924008E0FDB /* audio_hanyu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C72EF9D1D6AF924008E0FDB /* audio_hanyu.mp3 */; };
 		95EB81FB0EED80FA5484AC97 /* libPods-BirthdayProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B8FD5595707313A20D9772 /* libPods-BirthdayProject.a */; };
 		AB0B02CE1D682F2C004B0F80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B02CD1D682F2C004B0F80 /* main.m */; };
 		AB0B02D11D682F2C004B0F80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B02D01D682F2C004B0F80 /* AppDelegate.m */; };
@@ -42,6 +49,15 @@
 		06DBF477572DB5BE86E02E2A /* Pods-BirthdayProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirthdayProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirthdayProjectTests/Pods-BirthdayProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		093E5B7B1CDA33D2D9EC1323 /* Pods-BirthdayProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirthdayProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirthdayProject/Pods-BirthdayProject.debug.xcconfig"; sourceTree = "<group>"; };
 		284E8529D0088A455F079AD6 /* Pods-BirthdayProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirthdayProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BirthdayProjectTests/Pods-BirthdayProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C72EF801D6AD29B008E0FDB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3C72EF821D6AD2A6008E0FDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3C72EF851D6AD4EA008E0FDB /* 5448056_tu5974_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5448056_tu5974_21.jpg; sourceTree = "<group>"; };
+		3C72EF861D6AD4EA008E0FDB /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
+		3C72EF971D6AED10008E0FDB /* DrawText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawText.h; sourceTree = "<group>"; };
+		3C72EF981D6AED10008E0FDB /* DrawText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawText.m; sourceTree = "<group>"; };
+		3C72EF9A1D6AEE03008E0FDB /* UIBezierPath+ZJText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+ZJText.h"; sourceTree = "<group>"; };
+		3C72EF9B1D6AEE03008E0FDB /* UIBezierPath+ZJText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+ZJText.m"; sourceTree = "<group>"; };
+		3C72EF9D1D6AF924008E0FDB /* audio_hanyu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio_hanyu.mp3; sourceTree = "<group>"; };
 		8F6947B9EBF9C9D4348F5CD4 /* libPods-BirthdayProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BirthdayProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0B02C91D682F2C004B0F80 /* BirthdayProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0B02CD1D682F2C004B0F80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C72EF831D6AD2A6008E0FDB /* QuartzCore.framework in Frameworks */,
+				3C72EF811D6AD29B008E0FDB /* CoreText.framework in Frameworks */,
 				95EB81FB0EED80FA5484AC97 /* libPods-BirthdayProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,9 +114,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C72EF841D6AD4D5008E0FDB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3C72EF9D1D6AF924008E0FDB /* audio_hanyu.mp3 */,
+				3C72EF851D6AD4EA008E0FDB /* 5448056_tu5974_21.jpg */,
+				3C72EF861D6AD4EA008E0FDB /* launch.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3C72EF961D6AECE4008E0FDB /* TextAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3C72EF9A1D6AEE03008E0FDB /* UIBezierPath+ZJText.h */,
+				3C72EF9B1D6AEE03008E0FDB /* UIBezierPath+ZJText.m */,
+				3C72EF971D6AED10008E0FDB /* DrawText.h */,
+				3C72EF981D6AED10008E0FDB /* DrawText.m */,
+			);
+			path = TextAnimation;
+			sourceTree = "<group>";
+		};
 		8F429E942AD324C3CA9987B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C72EF821D6AD2A6008E0FDB /* QuartzCore.framework */,
+				3C72EF801D6AD29B008E0FDB /* CoreText.framework */,
 				F2B8FD5595707313A20D9772 /* libPods-BirthdayProject.a */,
 				8F6947B9EBF9C9D4348F5CD4 /* libPods-BirthdayProjectTests.a */,
 				C24D030EAC326BE8AF404B24 /* libPods-BirthdayProjectUITests.a */,
@@ -144,6 +185,8 @@
 		AB0B02CB1D682F2C004B0F80 /* BirthdayProject */ = {
 			isa = PBXGroup;
 			children = (
+				3C72EF961D6AECE4008E0FDB /* TextAnimation */,
+				3C72EF841D6AD4D5008E0FDB /* Image */,
 				AB0B03051D68311E004B0F80 /* AVFoundation */,
 				AB0B02CF1D682F2C004B0F80 /* AppDelegate.h */,
 				AB0B02D01D682F2C004B0F80 /* AppDelegate.m */,
@@ -305,8 +348,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB0B02DC1D682F2C004B0F80 /* LaunchScreen.storyboard in Resources */,
+				3C72EF881D6AD4EA008E0FDB /* launch.jpg in Resources */,
 				AB0B02D91D682F2C004B0F80 /* Assets.xcassets in Resources */,
+				3C72EF9E1D6AF924008E0FDB /* audio_hanyu.mp3 in Resources */,
 				AB0B02D71D682F2C004B0F80 /* Main.storyboard in Resources */,
+				3C72EF871D6AD4EA008E0FDB /* 5448056_tu5974_21.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,10 +500,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C72EF9C1D6AEE03008E0FDB /* UIBezierPath+ZJText.m in Sources */,
 				AB0B02D41D682F2C004B0F80 /* ViewController.m in Sources */,
 				AB0B03081D6831B8004B0F80 /* ZFAVAudioManager.m in Sources */,
 				AB0B02D11D682F2C004B0F80 /* AppDelegate.m in Sources */,
 				AB0B02CE1D682F2C004B0F80 /* main.m in Sources */,
+				3C72EF991D6AED10008E0FDB /* DrawText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,8 +650,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BirthdayProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zf.BirthdayProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.girl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -614,8 +663,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BirthdayProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zf.BirthdayProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.girl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

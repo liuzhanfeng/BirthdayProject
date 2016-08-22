@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface ZFAVAudioManager : NSObject
-
++ (instancetype)manager;
+-(void)startPlay;
 @end
