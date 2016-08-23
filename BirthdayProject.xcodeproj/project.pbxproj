@@ -16,6 +16,9 @@
 		3C72EF9C1D6AEE03008E0FDB /* UIBezierPath+ZJText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72EF9B1D6AEE03008E0FDB /* UIBezierPath+ZJText.m */; };
 		3C72EF9E1D6AF924008E0FDB /* audio_hanyu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C72EF9D1D6AF924008E0FDB /* audio_hanyu.mp3 */; };
 		3C72EFA11D6B2406008E0FDB /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72EFA01D6B2406008E0FDB /* ParentViewController.m */; };
+		3C72EFAD1D6C6338008E0FDB /* IMG_1873.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3C72EFAC1D6C6338008E0FDB /* IMG_1873.JPG */; };
+		3C72EFB11D6C64AC008E0FDB /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72EFAF1D6C64AC008E0FDB /* WebViewController.m */; };
+		3C72EFB21D6C64AC008E0FDB /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C72EFB01D6C64AC008E0FDB /* WebViewController.xib */; };
 		95EB81FB0EED80FA5484AC97 /* libPods-BirthdayProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B8FD5595707313A20D9772 /* libPods-BirthdayProject.a */; };
 		AB0B02CE1D682F2C004B0F80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B02CD1D682F2C004B0F80 /* main.m */; };
 		AB0B02D11D682F2C004B0F80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B02D01D682F2C004B0F80 /* AppDelegate.m */; };
@@ -61,6 +64,10 @@
 		3C72EF9D1D6AF924008E0FDB /* audio_hanyu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio_hanyu.mp3; sourceTree = "<group>"; };
 		3C72EF9F1D6B2406008E0FDB /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
 		3C72EFA01D6B2406008E0FDB /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		3C72EFAC1D6C6338008E0FDB /* IMG_1873.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1873.JPG; sourceTree = "<group>"; };
+		3C72EFAE1D6C64AC008E0FDB /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		3C72EFAF1D6C64AC008E0FDB /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		3C72EFB01D6C64AC008E0FDB /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		8F6947B9EBF9C9D4348F5CD4 /* libPods-BirthdayProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BirthdayProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0B02C91D682F2C004B0F80 /* BirthdayProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0B02CD1D682F2C004B0F80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +127,7 @@
 		3C72EF841D6AD4D5008E0FDB /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				3C72EFAC1D6C6338008E0FDB /* IMG_1873.JPG */,
 				3C72EF9D1D6AF924008E0FDB /* audio_hanyu.mp3 */,
 				3C72EF851D6AD4EA008E0FDB /* 5448056_tu5974_21.jpg */,
 				3C72EF861D6AD4EA008E0FDB /* launch.jpg */,
@@ -195,6 +203,9 @@
 				AB0B02D01D682F2C004B0F80 /* AppDelegate.m */,
 				AB0B02D21D682F2C004B0F80 /* ViewController.h */,
 				AB0B02D31D682F2C004B0F80 /* ViewController.m */,
+				3C72EFAE1D6C64AC008E0FDB /* WebViewController.h */,
+				3C72EFAF1D6C64AC008E0FDB /* WebViewController.m */,
+				3C72EFB01D6C64AC008E0FDB /* WebViewController.xib */,
 				3C72EF9F1D6B2406008E0FDB /* ParentViewController.h */,
 				3C72EFA01D6B2406008E0FDB /* ParentViewController.m */,
 				AB0B02D51D682F2C004B0F80 /* Main.storyboard */,
@@ -354,6 +365,8 @@
 			files = (
 				AB0B02DC1D682F2C004B0F80 /* LaunchScreen.storyboard in Resources */,
 				3C72EF881D6AD4EA008E0FDB /* launch.jpg in Resources */,
+				3C72EFAD1D6C6338008E0FDB /* IMG_1873.JPG in Resources */,
+				3C72EFB21D6C64AC008E0FDB /* WebViewController.xib in Resources */,
 				AB0B02D91D682F2C004B0F80 /* Assets.xcassets in Resources */,
 				3C72EF9E1D6AF924008E0FDB /* audio_hanyu.mp3 in Resources */,
 				AB0B02D71D682F2C004B0F80 /* Main.storyboard in Resources */,
@@ -508,6 +521,7 @@
 				3C72EF9C1D6AEE03008E0FDB /* UIBezierPath+ZJText.m in Sources */,
 				AB0B02D41D682F2C004B0F80 /* ViewController.m in Sources */,
 				3C72EFA11D6B2406008E0FDB /* ParentViewController.m in Sources */,
+				3C72EFB11D6C64AC008E0FDB /* WebViewController.m in Sources */,
 				AB0B03081D6831B8004B0F80 /* ZFAVAudioManager.m in Sources */,
 				AB0B02D11D682F2C004B0F80 /* AppDelegate.m in Sources */,
 				AB0B02CE1D682F2C004B0F80 /* main.m in Sources */,
@@ -658,7 +672,7 @@
 				INFOPLIST_FILE = BirthdayProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.girl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.gir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -671,7 +685,7 @@
 				INFOPLIST_FILE = BirthdayProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.girl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Transfer.gir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

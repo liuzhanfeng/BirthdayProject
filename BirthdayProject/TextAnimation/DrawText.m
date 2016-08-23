@@ -25,6 +25,8 @@
         
         [self.layer addSublayer:self.shapeLayer ];
         
+        self.backgroundColor = RGBColor(220, 141, 226);
+        
 //        self.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
 
     }
@@ -62,7 +64,7 @@
         
         _shapeLayer.frame = CGRectMake(0, (size.height - height)/2, size.width , height);
         _shapeLayer.geometryFlipped = YES;
-        _shapeLayer.strokeColor = [UIColor orangeColor].CGColor;
+        _shapeLayer.strokeColor = RGBColor(236, 180, 180).CGColor;
         _shapeLayer.fillColor = [UIColor clearColor].CGColor;;
         _shapeLayer.lineWidth = 2.0f;
         _shapeLayer.lineJoin = kCALineJoinRound;

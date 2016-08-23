@@ -9,6 +9,12 @@
 #import "ViewController.h"
 #import "DrawText.h"
 #import "ZFAVAudioManager.h"
+#import "WebViewController.h"
+#define HEIGHT 80
+#define SCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define SCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
+
+
 @interface ViewController ()
 {
     
@@ -28,22 +34,24 @@
     [super viewDidLoad];
     [[ZFAVAudioManager manager] startPlay];
 
-
-
-    NSArray *array = @[@"2016年7月28日",@"00:00:01",@"老婆",@"祝你生日快乐"];
+    NSArray *array = @[@"2016年7月28日",@"00:00:01",@"祝:",@"老婆生日快乐"];
     
-    draw1 = [[DrawText alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 150)];
+    draw1 = [[DrawText alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, HEIGHT)];
     [self.view addSubview:draw1];
     [draw1 start:array[0]];
     
-    draw4 = [[DrawText alloc] initWithFrame:CGRectMake(0, 150, self.view.frame.size.width, 150)];
+    draw4 = [[DrawText alloc] initWithFrame:CGRectMake(0, HEIGHT, SCREENWIDTH, HEIGHT)];
     [self.view addSubview:draw4];
     
-    draw2 = [[DrawText alloc] initWithFrame:CGRectMake(0,300, self.view.frame.size.width, 150)];
+    draw2 = [[DrawText alloc] initWithFrame:CGRectMake(0,2*HEIGHT, SCREENWIDTH, HEIGHT)];
     [self.view addSubview:draw2];
 
-    draw3 = [[DrawText alloc] initWithFrame:CGRectMake(0,450, self.view.frame.size.width, 150)];
+    draw3 = [[DrawText alloc] initWithFrame:CGRectMake(0,3*HEIGHT, SCREENWIDTH, HEIGHT)];
     [self.view addSubview:draw3];
+    
+    UIImageView *imagView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 4*HEIGHT, SCREENWIDTH, SCREENHEIGHT -4*HEIGHT )];
+    imagView.image = [UIImage imageNamed:@"IMG_1873.JPG"];
+    [self.view addSubview:imagView];
     
     NSString *s1 = array[0];
     NSString *s2 = array[1];
@@ -59,7 +67,7 @@
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(s3.length*0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 [draw3 start:array[3]];
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(s4.length*0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                    [self startTranssiton];
+                    [self webViewController];
                 });
             });
         });
@@ -67,28 +75,9 @@
     
 }
 
--(void)hiddenText{
-    [UIView animateWithDuration:0.5 animations:^{
-        draw1.hidden = 0.0;
-        draw2.hidden = 0.0;
-        draw3.hidden = 0.0;
-        draw4.hidden = 0.0;
-        [draw1 removeFromSuperview];
-        [draw2 removeFromSuperview];
-        [draw3 removeFromSuperview];
-        [draw4 removeFromSuperview];
-    }];
-}
-
--(void)startTranssiton{
-    [self hiddenText];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self.view addSubview:self.iconView];
-        [self changeAnimation];
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self changeAnimation];
-        });
-    });
+-(void)webViewController{
+    WebViewController *web = [[WebViewController alloc] init];
+    [self presentViewController:web animated:YES completion:nil];
 }
 
 -(void)changeAnimation{
