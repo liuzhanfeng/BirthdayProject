@@ -25,7 +25,7 @@
         
         [self.layer addSublayer:self.shapeLayer ];
         
-        self.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+//        self.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
 
     }
     return self;
@@ -44,7 +44,7 @@
     [self.shapeLayer removeAllAnimations];
     
     CABasicAnimation *pathAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
-    pathAnimation.duration = 0.7f * text.length;
+    pathAnimation.duration = 0.5f * text.length;
     pathAnimation.fromValue = [NSNumber numberWithFloat:0.0f];
     pathAnimation.toValue = [NSNumber numberWithFloat:1.0f];
     [self.shapeLayer addAnimation:pathAnimation forKey:@"strokeEnd"];
