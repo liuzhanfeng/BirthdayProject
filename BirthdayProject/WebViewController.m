@@ -20,7 +20,7 @@
     [super viewDidLoad];
     self.button.backgroundColor = RGBColor(198, 161, 223);
     self.button.layer.cornerRadius = 15;
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.rabbitpre.com/m/uyyqaqQ"]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@""]];
     [self.webView loadRequest:request];
     self.webView.delegate = self;
 }
